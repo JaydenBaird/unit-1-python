@@ -17,7 +17,11 @@ TASK 2:
 Write code that takes a number as input and prints whether 
 it's positive, negative, or zero using if-elif-else statements.
 """
-
+neg_pos_number = input("Put in a number ")
+if neg_pos_number() == 0:
+    print ("your number is zero")
+elif neg_pos_number ==:
+    print ("")
 
 """
 TASK 3:
