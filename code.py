@@ -17,3 +17,4 @@ def check(n):
 check(5)
 check(0)
 check(-5)
+push
