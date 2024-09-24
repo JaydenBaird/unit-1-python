@@ -17,11 +17,14 @@ TASK 2:
 Write code that takes a number as input and prints whether 
 it's positive, negative, or zero using if-elif-else statements.
 """
-neg_pos_number = input("Put in a number ")
-if neg_pos_number() == 0:
-    print ("your number is zero")
-elif neg_pos_number ==:
-    print ("")
+
+num = float(input("Put in a number: "))
+if num > 0:
+   print("Positive")
+elif num == 0:
+   print("Zero")
+else:
+   print("Negative ")
 
 """
 TASK 3:
@@ -29,7 +32,17 @@ TASK 3:
 Write code that takes two numbers as input (an integer and a float), 
 performs addition, subtraction, multiplication, and division, and prints the results.
 """
+f_num = int(input("Put in a number: "))
+s_num = float(input("Put in a number: "))
+f_s_sum = f_num + s_num
+f_s_sub = f_num - s_num
+f_s_mul = f_num * s_num
+f_s_div = f_num // s_num
 
+print(f_s_sum)
+print(f_s_sub)
+print(f_s_mul)
+print(f_s_div)
 
 """
 TASK 4:
