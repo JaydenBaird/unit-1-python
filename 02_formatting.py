@@ -4,8 +4,8 @@ Write code that checks if a user entered the correct password.
 The password should not be case sensitive
 
 """
-
-
+password = input("Put in a password")
+check_password = 
 """
 TASK 2:
 Write code that checks if a user inputs an empty string
