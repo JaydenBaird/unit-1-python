@@ -4,14 +4,19 @@ Write code that checks if a user entered the correct password.
 The password should not be case sensitive
 
 """
-password = input("Put in a password")
-check_password = 1
+password = input("Put in a password ")
+check_password = input("Confirm your password ")
+if check_password == password:
+    print("your password is good")
+else :
+    print("try again") 
+
+
 """
 TASK 2:
 Write code that checks if a user inputs an empty string
 If the string is empty, print "invalid" otherwise print "valid"
 """
-
 
 """
 TASK 3:
