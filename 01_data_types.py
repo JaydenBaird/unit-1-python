@@ -50,11 +50,21 @@ TASK 4:
 Create a dictionary with keys as fruit names and values as their respective quantities. 
 Then print out the quantity of one of the fruits.
 """
-
-
+Fruits = {
+   'Lemon':1,
+   'Apple': 2,
+   'Raspberries':3,
+   'Orange':4,
+   'Strawberry':5
+}
+print(Fruits["Orange"])
 """
 TASK 5:
 
 Create a string variable with that is a list of numbers and convert that string into a tuple.
 Then print out the both the original string and tuple.
 """
+Bstr = "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 0"
+Tuple = Bstr.split(",")
+print(Bstr)
+print(Tuple)
