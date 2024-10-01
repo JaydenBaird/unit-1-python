@@ -5,7 +5,7 @@ The password should not be case sensitive
 
 """
 password = input("Put in a password")
-check_password = 
+check_password = 1
 """
 TASK 2:
 Write code that checks if a user inputs an empty string
