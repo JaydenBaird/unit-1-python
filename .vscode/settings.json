@@ -3,5 +3,6 @@
         "Bstr",
         "occurances",
         "Turple"
-    ]
+    ],
+    "python.analysis.typeCheckingMode": "basic"
 }

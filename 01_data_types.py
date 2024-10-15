@@ -10,8 +10,8 @@ int_number = int(float_number)
 
 print (float_number)
 print (int_number)
-
-
+print(
+    
 """
 TASK 2:
 Write code that takes a number as input and prints whether 
