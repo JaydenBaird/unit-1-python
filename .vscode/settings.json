@@ -2,7 +2,8 @@
     "cSpell.words": [
         "Bstr",
         "occurances",
-        "Turple"
+        "Turple",
+        "ustring"
     ],
     "python.analysis.typeCheckingMode": "basic"
 }
